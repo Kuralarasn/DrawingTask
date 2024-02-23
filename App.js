@@ -1,20 +1,14 @@
-import React, { useState, useRef } from "react";
-import { View, StyleSheet, Dimension } from 'react-native'
+import React from "react";
+import { View } from 'react-native'
+
 import HandwritingEditor from "./screen/HandwritingEditor";
-import DrawingCanvas from "./screen/DrawingCanvas";
-import DrawingApp from "./screen/HandwritingEditor";
 const App = () => {
-
-
-
-
   return (
     <View style={{
-      flex:1
+      flex: 1
     }}>
-      <DrawingApp />
+      <HandwritingEditor />
     </View>
-
 
   )
 
@@ -22,9 +16,5 @@ const App = () => {
 
 export default App
 
-const styles = StyleSheet.create({
-
-
-})
 
 

@@ -4,7 +4,7 @@ import { Svg, Path } from 'react-native-svg';;
 import RNFS from 'react-native-fs';
 import ViewShot from "react-native-view-shot";
 import { captureRef } from 'react-native-view-shot';
-const DrawingApp = () => {
+const HandWritingEditor = () => {
     const image1 = [
         { key: 0, value: require('../screen/img/undo.png') },
         { key: 1, value: require('../screen/img/redo.png') },
@@ -353,4 +353,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default DrawingApp;
+export default HandWritingEditor;
