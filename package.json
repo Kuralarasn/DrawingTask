@@ -10,8 +10,19 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-camera-roll/camera-roll": "^7.4.1",
+    "@react-native-community/slider": "^4.5.0",
+    "expo-modules-core": "^1.11.9",
+    "expo-permissions": "^14.4.0",
     "react": "18.2.0",
-    "react-native": "0.73.4"
+    "react-native": "0.73.4",
+    "react-native-canvas": "^0.1.39",
+    "react-native-color-picker": "^0.6.0",
+    "react-native-fs": "^2.20.0",
+    "react-native-share": "^10.0.2",
+    "react-native-svg": "^14.1.0",
+    "react-native-view-shot": "^3.8.0",
+    "react-native-webview": "^13.8.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
